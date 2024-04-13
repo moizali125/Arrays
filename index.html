@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>title</title>
+    <title>ARRAYS</title>
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
@@ -11,13 +11,13 @@
     <div class="heading">
       <div class="space"></div>
       <div class="head">
-        <h1>heading</h1>
+        <h1>ARRAYS</h1>
       </div>
       <div class="space"></div>
     </div>
     <div class="blue-buttom">
       <div class="para">
-        Assinment # 9-10 <br />
+        Assinment # 13-15 <br />
         JAVASCRIPT
       </div>
     </div>
@@ -27,24 +27,93 @@
     </div>
 
     <div class="moiz">
-      <h1>-: If statements :-</h1>
+      <h1>-: ARRAYS :-</h1>
       <p class="ali">
-        <!-- 1 -->
+        <br />
+        Let's assign some string values to some variables. <br />
+        var city0 = "Atlanta"; <br />
+        var city1 = "Baltimore"; <br />
+        var city2 = "Chicago"; <br />
+        var city3 = "Denver"; <br />
+        var city4 = "Los Angeles"; <br />
+        var city5 = "Seattle"; <br />
+        The variable names are all the same, except they end in different
+        numbers. I could have <br />
+        named the variables buffy, the, vampireSlayer, and so on if I'd wanted
+        to, but I chose to <br />
+        name them this way because of where this discussion is going. <br />
+        Now, having made these assignments, if I code... <br />
+        alert("Welcome to " + city3); <br />
+        ...an alert displays saying, "Welcome to Denver". <br />
+        I'm going to show you another type of variable, one that will come in
+        handy for many <br />
+        tasks that you'll learn about in later chapters. I'm talking about a
+        type of variable called an <br />
+        array. Whereas an ordinary variable has a single value assigned to
+        it—for example, 9 or <br />
+        "Paris"—an array is a variable that can have multiple values assigned to
+        it. You define an <br />
+        array this way: <br />
+        var cities = ["Atlanta", "Baltimore", "Chicago", "Denver", "Los
+        Angeles", "Seattle"]; <br />
+        In the example at the beginning of this chapter, I ended each variable
+        name with a number. <br />
+        city0 was "Atlanta", city1 was "Baltimore", and so on. The array I just
+        defined is similar, <br />
+        but in the case of an array defined the way I just defined one,
+        JavaScript numbers the different <br />
+        values, or elements, automatically. (You can control the numbering
+        yourself by defining <br />
+        elements individually. See below.) And you refer to each element by
+        writing the array name <br />
+        —cities in this case—followed by a number enclosed in square brackets.
+        cities[0] is <br />
+        "Atlanta", cities[1] is "Baltimore", and so on. <br />
+        Because JavaScript automatically numbers array elements, you have no say
+        in the <br />
+        numbering. The first element in the list always has an index of 0, the
+        second element an index <br />
+        of 1, and so on. <br />
+        This is the alert I coded above, but now specifying an array element
+        instead of an <br />
+        ordinary variable. <br />
+        alert("Welcome to " + cities[3]); <br />
+        An array can be assigned any type of value that you can assign to
+        ordinary variables. You <br />
+        can even mix the different types in the same array (not that you would
+        ordinarily want to). <br />
+        var mixedArray = [1, "Bob", "Now is", true]; <br />
+        In the example above, mixedArray[0] has a numerical value of 1,
+        mixedArray[1] has a <br />
+        string value of "Bob", and so on. <br />
+        Things to keep in mind: <br />
+        The first item always has an index of 0, not 1. This means that if the
+        last item in the list <br />
+        has an index of 9, there are 10 items in the list. <br />
+        The same naming rules you learned for ordinary variables apply. Only
+        letters, numbers, $ <br />
+        and _ are legal. The first character can't be a number. No spaces.
+        <br />
+        Coders often prefer to make array names plural—cities instead of city,
+        for example— <br />
+        since an array is a list of things. <br />
+        Like an ordinary variable, you declare an array only once. If you assign
+        new values to an <br />
+        array that has already been declared, you drop the var. <br />
       </p>
     </div>
     <div class="moiz">
-      <h1>-: Comparison operators :-</h1>
+      <h1>-: Assignment :-</h1>
       <p class="ali">
-        <!-- 2 -->
-      </p>
-    </div>
-    <div class="moiz">
-      <h1>Assignment</h1>
-      <p class="ali">
-        <object data="./" type="application/pdf" width="100%" height="500px">
+        <object
+          data="./chapters14-16.pdf"
+          type="application/pdf"
+          width="100%"
+          height="500px"
+        >
           <p>
             Unable to display PDF file.
-            <a href="./chapters9-11-1.pdf">Download</a>
+            <a href="./chapters14-16.pdf">Download</a>
             instead.
           </p>
         </object>
